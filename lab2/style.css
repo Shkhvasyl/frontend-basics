@@ -1,0 +1,131 @@
+table{
+    width: 80%;
+    height: 200px;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+table, td{
+   border: 2px solid;
+}
+td{
+    width: 20%;
+    height: 25%;
+}
+tr:first-child{
+    background-color: #668f8f;
+    color: #080808;
+}
+tr:first-child:hover{
+    background-color: #080808;
+    color: #668f8f;
+}
+tr:nth-child(2){
+    background-color: #f5f566;
+    color: #7c008c;
+}
+tr:nth-child(2):hover{
+    background-color: #7c008c;
+    color: #f5f566;
+}
+.picture-container{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+.phone {
+    position: relative;
+    width: 120px;
+    height: 220px;
+    background-color: #d3e0c7;
+    border: 2px solid black;
+    border-radius: 20px;
+    margin: 20px auto;
+    }
+    
+    /* Екран телефону */
+    .screen {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    border-radius: 15px;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    font-family: Arial, sans-serif;
+    }
+    
+    /* Кнопки телефону */
+    .button {
+    position: absolute;
+    width: 24px;           /* Ширина кнопки */
+    height: 21px;          /* Висота кнопки */
+    background-color: #4b3b47;
+    border: 1px solid black;
+    border-radius: 50%
+    }
+    
+    /* Розміщення кнопок по центру */
+    .button1 { top: 125px; left: 20px; }
+    .button2 { top: 125px; left: 48px; }
+    .button3 { top: 125px; left: 76px; }
+    
+    .button4 { top: 155px; left: 20px; }
+    .button5 { top: 155px; left: 48px; }
+    .button6 { top: 155px; left: 76px; }
+    
+    .button7 { top: 185px; left: 20px; }
+    .button8 { top: 185px; left: 48px; }
+    .button9 { top: 185px; left: 76px; }
+    
+    .secondphone {
+        width: 120px;
+        height: 220px;
+        background-color: #d3e0c7;
+        border: 2px solid black;
+        border-radius: 20px;
+        margin: 20px auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    
+    /* Екран телефону */
+    .secondscreen {
+        width: 100px;
+        height: 100px;
+        background-color: white;
+        border-radius: 15px;
+        border: 1px solid black;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 24px;
+        font-family: Arial, sans-serif;
+        transform: translateY(-10px); /* Невеликий зсув вгору */
+    }
+    
+    /* Блок, що містить кнопки */
+    .secondbuttons {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        width: 80%;
+        transform: translateY(5px);
+    }
+    
+    /* Кнопки телефону */
+    .secondbutton {
+        width: 24px;
+        height: 21px;
+        background-color: #4b3b47;
+        border-radius: 50%;
+        border: 1px solid black;
+        margin: 3px;
+    }
