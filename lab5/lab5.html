@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Шахов B.B. IC-22 Лaб№5</title>
+    <meta name="description" content="Front-end basics lab5">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form id="infoForm">
+        <label for="name">ПІБ:</label>
+        <input type="text" id="name" name="name" placeholder="Прізвище І.Б." required><br><br>
+
+        <label for="variant">Варіант:</label>
+        <input type="text" id="variant" name="variant" placeholder="ЧЧ" required><br><br>
+
+        <label for="group">Група:</label>
+        <input type="text" id="group" name="group" placeholder="ТТ-ЧЧ" required><br><br>
+
+        <label for="phone">Телефон:</label>
+        <input type="text" id="phone" name="phone" placeholder="(ЧЧЧ)-ЧЧЧ-ЧЧ-ЧЧ" required><br><br>
+
+        <label for="idCard">ID-картка:</label>
+        <input type="text" id="idCard" name="idCard" placeholder="ТТ №ЧЧЧЧЧЧ" required><br><br>
+
+        <button type="button" onclick="validateForm()">Надіслати</button>
+    </form>
+
+    <div id="tableContainer">
+        <label for="colorPicker">Оберіть колір:</label>
+        <input type="color" id="colorPicker" value="#ff0000"><br><br>
+        <h2>Таблиця (6x6)</h2>
+        <table id="numberTable"></table>
+    </div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
