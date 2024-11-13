@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+#load-users-btn {
+    background-color: #dcdcdc;
+    color: black;
+    border: 1px solid #000;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+#users-info {
+    margin-top: 20px;
+    display: block;
+    padding: 10px;
+    text-align: left;
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+.user-info {
+    background-color: #ffffff;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #333;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.user-info img {
+    width: 60px;
+    height: 60px;
+    border: 1px solid #000;
+}
+
+.user-details {
+    font-size: 14px;
+    line-height: 1.5;
+    color: #000;
+}
